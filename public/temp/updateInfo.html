@@ -1,0 +1,49 @@
+<div class="updateInfo">
+    <h1>Update your ninja details!</h1>
+    <form id="updateInfoForm" class="updateInfoForm" action="/api/ninjas/updateInfo/" method="put">
+      <div class="formError">
+          error goes here
+      </div>
+      <div class="formSuccess">
+          success msg goes here
+      </div> <br>
+        <input type="text" name="name" class="updateNinjaName" placeholder="xyz" value="xyz" disabled><br><br>
+        <input type="text" name="rank" class="updateNinjaRank" placeholder="rank" value="your rank" disabled><br><br>
+        <select class="select">
+            <option>
+                Update your rank
+            </option>
+            <option>
+                Black Belt
+            </option>
+            <option>
+                Blue Belt
+            </option>
+            <option>
+                Pink Belt
+            </option>
+            <option>
+                Red Belt
+            </option>
+            <option>
+                Brown Belt
+            </option>
+            <option>
+                Yellow Belt
+            </option>
+            <option>
+                Orange Belt
+            </option>
+        </select><br><br>
+        <input type="number" name="lat" class="lat" placeholder="Update Latitude"><br><br>
+        <input type="number" name="lng" class="lng" placeholder="Update Longitude"><br><br>
+        <div class="radioBtns">
+           Are you available right now !!!<br>
+           <input type="radio" name="radio" value="yes" checked="checked"> YES
+           <input type="radio" name="radio" value="no">  NO
+        </div><br>
+        <input type="submit" id="updateInfoBtn" name="submit" value="Update Info"><br>
+    </form>
+</div>
+<br>
+<br>

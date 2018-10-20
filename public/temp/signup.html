@@ -1,0 +1,44 @@
+<div class="Signup">
+    <h1>BECOME A NINJA!</h1>
+    <form id="SignupForm" class="SignupForm" action="/auth/signup" method="post">
+      <div class="formError">
+          error goes here
+      </div>
+        <input type="text" name="name" class="name" placeholder="xyz"><br><br>
+        <input type="password" name="pwd" class="pwd" placeholder="password"><br><br>
+        <select class="select">
+            <option>
+                Select your rank
+            </option>
+            <option>
+                Black Belt
+            </option>
+            <option>
+                Blue Belt
+            </option>
+            <option>
+                Pink Belt
+            </option>
+            <option>
+                Red Belt
+            </option>
+            <option>
+                Brown Belt
+            </option>
+            <option>
+                Yellow Belt
+            </option>
+            <option>
+                Orange Belt
+            </option>
+        </select><br><br>
+        <input type="number" name="lat" class="lat" placeholder="Enter Latitude"><br><br>
+        <input type="number" name="lng" class="lng" placeholder="Enter Longitude"><br><br>
+        <div class="radioBtns">
+           Are you available right now !!!<br>
+           <input type="radio" name="radio" value="yes" checked="checked"> YES
+           <input type="radio" name="radio" value="no">  NO
+        </div><br>
+        <input type="submit" id="signupBtn" name="submit" value="SIGN UP"><br>
+    </form>
+</div>

@@ -1,0 +1,30 @@
+{
+  "name": "ryu",
+  "rank": "red belt",
+  "available": true,
+  "geometry": {"type":"Point", "coordinates": [-80, 25.791]}
+}
+{
+  "name": "yoshi",
+  "rank": "black belt",
+  "available": true,
+  "geometry": {"type":"Point", "coordinates": [-80.245, 25.701]}
+}
+{
+  "name": "crystal",
+  "rank": "pink belt",
+  "available": true,
+  "geometry": {"type":"Point", "coordinates": [-80.789, 25.701]}
+}
+{
+  "name": "mario",
+  "rank": "blue belt",
+  "available": true,
+  "geometry": {"type":"Point", "coordinates": [-82.589, 26.701]}
+}
+{
+  "name": "luigi",
+  "rank": "pink belt",
+  "available": true,
+  "geometry": {"type":"Point", "coordinates": [-81.1, 24.95]}
+}

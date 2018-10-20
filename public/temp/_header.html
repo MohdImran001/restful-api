@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{head.title}</title> <!-- {head.title} = Hire a ninja -->
+    <base href="{baseUrl}" /> <!-- {baseUrl} = localhost:4000-->
+    <!-- add favicon if possible -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css" />
+  </head>
+  <body>
+
+        <nav class="nav-bar">
+            <ul style="list-style: none;display: flex;">
+                <li class="nav-brand">{appName}</li>
+                <span style="flex: 1 1 auto;"></span>
+                <li class="nav-links"><a href="/" style="text-decoration:none;color:white;">Hire Ninja</a></li>
+                <li class="nav-links loggedOut" ><a href="/login" style="text-decoration:none;color:white;">Ninja Login</a></li>
+                <li class="nav-links loggedOut"><a href="/signup" style="text-decoration:none;color:white;">Become a Ninja</a></li>
+                <li class="nav-links loggedIn dropBtn">
+                  <span class="NinjaName">HELLO, NINJA</span>
+                  <ul class="dropdown">
+                      <li><a href="/change-password" style="text-decoration:none;color:white;">Change Password</a></li>
+                      <li><a href="/update-info" style="text-decoration:none;color:white;">Update Info</a></li>
+                      <li><a href="/delete-account" style="text-decoration:none;color:white;">Delete Account</a></li>
+                      <li class="logoutBtn">Logout</li>
+                  </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- content goes here -->

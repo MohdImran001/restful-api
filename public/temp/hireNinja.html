@@ -1,0 +1,28 @@
+
+<div class="main-wrapper">
+            <h1>Hire a Ninja in your Area!</h1>
+            <div class="getNinja">
+                <div class="formError">
+                    error goes here
+                </div>
+                <form id="getNinjaForm" class="getNinjaForm" action="/api/ninjas" method="get">
+                    <input type="text" name="lat" class="lat" placeholder="Latitude (e.g. 80)">
+                    <input type="text" name="lng" class="lng" placeholder="Longitude (e.g. 25)">
+                    <input type="submit" id="getNinjaBtn" name="submit" value="GET NINJAS">
+                </form>
+            </div>
+            <div class="showNinjas">
+                <table >
+                    <thead>
+                      <tr>
+                          <td> Name </td>
+                          <td> Rank </td>
+                          <td> Distance </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+</div>
